@@ -6,6 +6,12 @@
 // console.log(c);
 // console.log(d);
 
+// let a = [1,2,4,6]
+
+// let [b,c,...d]=a
+// console.log(b);
+// console.log(c);
+// console.log(d);
 
 // spread operator :-  ... allows arrays, strings, or objects to be expanded into individual elements or properties.(unpack the elements)(like our asterisk in python)
 
