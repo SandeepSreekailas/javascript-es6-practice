@@ -23,7 +23,7 @@ function walkDog(){
 function cleanKitchen(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-            let kitchencleaned=true;
+            let kitchencleaned=false;
             if(kitchencleaned){
                 resolve("cleaned the kitchen🫧")
             }
@@ -50,6 +50,7 @@ function througTrash(){
 
 
 async function tasks() {
+    try{
     const walkthedog= await walkDog()
     console.log(walkthedog);
 
@@ -60,6 +61,10 @@ async function tasks() {
     console.log(takeoutthetrash);
     
     console.log("Every task done successfully 🥳");
+    }
+    catch(error){
+        console.log(error);
+    }
     
 }
 

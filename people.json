@@ -1,0 +1,29 @@
+[   {
+        "name": "Messi",
+        "age": 38,
+        "country": "Argentina",
+        "position": "Striker",
+        "isplaying": true
+    },
+    {
+        "name":"Ronaldo",
+        "age":39,
+        "country":"Portugal",
+        "position":"Striker",
+        "isplaying": true
+    },
+    {
+        "name":"Neymar",
+        "age":28,
+        "country":"Brazil",
+        "position":"Striker",
+        "isplaying": true
+    },
+    {
+        "name":"Zlatan Ibrahimovic",
+        "age":41,
+        "country":"Sweden",
+        "position":"Striker",
+        "isplaying": false
+    }  
+]
